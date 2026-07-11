@@ -5,8 +5,8 @@ Scraped: July 2026
 Platform: Wix (Studio / Odeditor), premium domain  
 Images saved in: `assets/current-site/`  
 
-**Full 100% text dump (all sitemap pages + blog posts):** [`site-content/FULL-SITE-TEXT.txt`](site-content/FULL-SITE-TEXT.txt)  
-Per-page files: `site-content/*.txt` · Raw HTML: `site-content/raw-html/`
+**Single complete file (metadata + images + 100% text):** [`TBI-REDEFINED-COMPLETE.md`](TBI-REDEFINED-COMPLETE.md)  
+Also: [`site-content/FULL-SITE-TEXT.txt`](site-content/FULL-SITE-TEXT.txt) · per-page `site-content/*.txt` · raw HTML `site-content/raw-html/`
 
 ---
 
