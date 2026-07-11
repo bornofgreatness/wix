@@ -3,7 +3,10 @@
 Source: https://www.tbi-redefined.org  
 Scraped: July 2026  
 Platform: Wix (Studio / Odeditor), premium domain  
-Images saved in: `assets/current-site/`
+Images saved in: `assets/current-site/`  
+
+**Full 100% text dump (all sitemap pages + blog posts):** [`site-content/FULL-SITE-TEXT.txt`](site-content/FULL-SITE-TEXT.txt)  
+Per-page files: `site-content/*.txt` · Raw HTML: `site-content/raw-html/`
 
 ---
 

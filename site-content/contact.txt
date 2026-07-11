@@ -1,0 +1,78 @@
+﻿================================================================================
+PAGE SLUG: contact
+================================================================================
+
+----- VISIBLE TEXT -----
+Contact | Tbi Redfined
+- Home
+- Contact
+Get Involved
+Contact
+If you have questions, want to collaborate, or are exploring ways
+to support this movement, we’d love to hear from you.
+Every conversation helps expand understanding and brings us closer to
+a world where TBI is met with clarity and compassion.
+Hello@TBI-Redifined.org
+Get in Touch
+Message Form:
+Use the form below to send a message, ask a question, or request more information.
+You will receive a reply within a reasonable timeframe.
+Contact Our Educational Team
+We are here to support your institution's needs with professional and compassionate care. Please fill out the form below to get in touch.
+First Name *
+Last Name *
+Email Address *
+School or Institution Name *
+Message *
+Send Message
+If you’re an educator, clinician, organization, or funder interested in working together, please include:
+- your name & your organization (if applicable)
+- the type of partnership you’re exploring
+- any specific questions or needs
+This helps us understand how to best support you.
+For Partnerships & Collaboration
+If you’re reaching out for guidance, clarity, or resources, you’re welcome here.
+You can share as much or as little as you’d like — your story will be met with respect and confidentiality.
+For Survivors & Families
+If you’d like updates on new resources, educational tools, or movement‑wide initiatives,
+let us know in your message and we’ll add you to the list.
+Stay Connected
+Share Your Story
+If you’re a TBI survivor — or someone who loves, supports, or advocates for one —
+your story matters. Your lived experience can help others feel seen, understood, and less alone.
+We welcome:
+survivor stories
+family and care‑partner reflections
+educator or clinician insights
+moments of clarity, struggle, or breakthrough
+anything that helps illuminate the real experience of TBI
+Every testimonial helps build a world where TBI is understood with acknowledgment, compassion, and truth.
+If you’d like to share your story, please eMail your story to:
+Hello@TBI-Redifined.org
+​
+We read every message with care and gratitude.
+Your story may be featured (with your permission, of course!) on our upcoming Testimonials page, offering others the acknowledgment, understanding, and support they’ve been missing for far too long.
+Home Page
+© 2026 TBI Redefined. United States.
+
+----- PAGE JSON TEXT -----
+
+
+----- INLINE EMBEDDED TEXT -----
+Contact Our Educational Team
+We are here to support your institution's needs with professional and compassionate care. Please fill out the form below to get in touch.
+Thanks, we received your submission.
+Deep Dive (Full Educational Journey)
+Testimonials
+Our Story
+The Truth About TBI
+Quick Digest (Cognitive‑Friendly)
+Partnership & Support
+Who We Serve
+The Learning Experience
+Our Impact
+First Name
+Last Name
+Email Address
+School or Institution Name
+Message

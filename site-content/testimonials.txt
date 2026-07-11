@@ -1,0 +1,27 @@
+﻿================================================================================
+PAGE SLUG: testimonials
+================================================================================
+
+----- VISIBLE TEXT -----
+Testimonials | Tbi Redfined
+- Home
+- Contact
+Get Involved
+Share Your Story
+This page is under construction and will grow as we receive your stories. As your experiences come in, this space will become a home for the voices, truths, and lived realities that shape our movement. Thank you for helping others feel acknowledged, understood, and supported.
+Contact Us
+© 2026 TBI Redefined. United States.
+
+----- PAGE JSON TEXT -----
+
+
+----- INLINE EMBEDDED TEXT -----
+Deep Dive (Full Educational Journey)
+Testimonials
+Our Story
+The Truth About TBI
+Quick Digest (Cognitive‑Friendly)
+Partnership & Support
+Who We Serve
+The Learning Experience
+Our Impact
