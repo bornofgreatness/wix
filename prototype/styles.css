@@ -277,6 +277,115 @@ a {
   color: rgba(26, 26, 26, 0.7);
 }
 
+/* Restored narrative sections */
+.section {
+  padding: 100px 0;
+}
+
+.section--action {
+  padding: 110px 0;
+}
+
+.section--white {
+  background: var(--white);
+}
+
+.section--mist {
+  background: var(--mist);
+}
+
+.section__inner {
+  margin: 0 auto;
+  padding: 0 48px;
+}
+
+.section__inner--narrow {
+  max-width: 760px;
+}
+
+.section__inner--mid,
+.section__inner--wide {
+  max-width: 860px;
+}
+
+.eyebrow {
+  margin: 0 0 28px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--teal);
+}
+
+.section h2 {
+  margin: 0 0 36px;
+  font-family: var(--font-serif);
+  font-size: clamp(30px, 4vw, 46px);
+  font-weight: 700;
+  line-height: 1.18;
+  color: var(--navy);
+}
+
+.section--action h2 {
+  font-size: clamp(26px, 3.5vw, 42px);
+  line-height: 1.22;
+  margin-bottom: 24px;
+}
+
+.body {
+  margin: 0 0 24px;
+  font-size: clamp(17px, 1.8vw, 20px);
+  line-height: 1.8;
+  color: rgba(26, 26, 26, 0.78);
+}
+
+.body:last-child {
+  margin-bottom: 0;
+}
+
+.body--action {
+  margin-bottom: 52px;
+  color: rgba(26, 26, 26, 0.72);
+}
+
+.btn-primary {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--white);
+  background: var(--teal);
+  padding: 18px 48px;
+  border-radius: 8px;
+}
+
+.btn-primary:hover {
+  background: var(--teal-deep);
+  transform: translateY(-1px);
+}
+
+.founder__title {
+  margin: 0 0 36px;
+  font-family: var(--font-sans);
+  font-size: clamp(20px, 2.2vw, 26px);
+  font-weight: 600;
+  line-height: 1.35;
+  color: var(--navy);
+}
+
+.founder__quote {
+  margin: 0;
+  padding-left: 28px;
+  border-left: 3px solid var(--gold);
+}
+
+.founder__quote p {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: clamp(18px, 2vw, 24px);
+  line-height: 1.9;
+  color: var(--ink);
+}
+
 /* Footer */
 .site-footer {
   background: var(--navy);
@@ -420,6 +529,15 @@ a {
     padding: 88px 0 96px;
   }
 
+  .section,
+  .section--action {
+    padding: 80px 0;
+  }
+
+  .section__inner {
+    padding: 0 24px;
+  }
+
   .footer__inner {
     grid-template-columns: 1fr;
     gap: 32px;
@@ -429,7 +547,8 @@ a {
     padding: 56px 24px 24px;
   }
 
-  .btn-hero {
+  .btn-hero,
+  .btn-primary {
     width: 100%;
   }
 }

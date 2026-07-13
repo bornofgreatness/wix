@@ -4,8 +4,15 @@
 **Local prototype:** `prototype/index.html`  
 **Live site:** https://www.tbi-redefined.org  
 
-Homepage content is **only two blocks** (per Russell): Hero + Bridge.  
-Do not add Problem / Solution / Impact / Founder sections on the homepage.
+Homepage order:
+
+1. **Hero** (Russell)  
+2. **Bridge** (Russell)  
+3. **The Problem**  
+4. **The Solution**  
+5. **The Impact**  
+6. **Take Action**  
+7. **Founder message**
 
 ---
 
@@ -71,7 +78,35 @@ Light / soft background.
 **Emphasis:** `This movement exists to change that`  
 **Close:** `You’re in the right place. This movement understands you.`  
 
-**This concludes homepage content.** Stop here. Other pages carry the rest of the site story.
+---
+
+## Homepage sections 3–7 (restored structure)
+
+### 3) The Problem (white)
+- Eyebrow: `The Problem`
+- H2: `The world has never truly understood TBI.`
+- Body: `For generations, survivors have lived without the awareness, clarity, guidance, or recognition they deserved — often navigating invisible challenges alone.`
+
+### 4) The Solution (mist)
+- Eyebrow: `The Solution`
+- H2: `This movement exists to change that — decisively.`
+- Body 1: `TBI Redefined brings emotional intelligence, cognitive clarity, and trauma-informed understanding to survivors, families, and communities.`
+- Body 2: `We create the learning experiences, tools, and awareness needed to help people rebuild confidence, connection, and identity.`
+
+### 5) The Impact (white)
+- Eyebrow: `The Impact`
+- H2: `Impact begins with understanding.`
+- Body: `When people learn what TBI truly is — and how it affects thinking, emotion, and daily life — families become steadier, communities become more supportive, and survivors finally feel seen.`
+
+### 6) Take Action (mist)
+- Eyebrow: `Take Action`
+- H2: `Help Prevent the Next Avoidable Tragedy`
+- Body: `Your support brings clarity, compassion, and empowerment to people who need it most.`
+- Button: `Join the Movement →` → Partnership & Support
+
+### 7) Founder message (white)
+- Title: `A message from our founder`
+- Quote (gold left border): `TBI Redefined was created to bring humanity, clarity, and emotional intelligence to a space that has been misunderstood for far too long. This movement is built for survivors — and shaped by compassion.`
 
 ---
 
@@ -79,8 +114,8 @@ Light / soft background.
 
 1. Duplicate current Home as backup.
 2. Clear homepage sections below header.
-3. Build Hero (image + veil + copy + CTA).
-4. Build Bridge section.
+3. Build Hero + Bridge (Russell copy).
+4. Add Problem → Solution → Impact → Take Action → Founder.
 5. Preview desktop + mobile.
 6. Send to Russell for approval, then publish.
 
