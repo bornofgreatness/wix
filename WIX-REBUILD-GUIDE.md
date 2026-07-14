@@ -56,13 +56,17 @@ Nav **Get Involved** can link to Partnership & Support (or scroll to Join CTA).
 
 Full-bleed photo background + soft dark veil (not solid matte).
 
-**Brand line (small):** `TBI Redefined`  
-**H1:** `Redefining Traumatic Brain Injury for a New Era of Understanding`  
-**Lead:** `TBI is not a momentary event — it is a long‑term neurological condition that reshapes how a person experiences themselves and the world.`  
-**Mission:** `We are building a national movement grounded in clarity, emotional intelligence, and lived experience — so survivors can finally be understood, and society can finally evolve.`  
-**Button:** `Join the Movement` → Partnership & Support  
+**H1 (large, Playfair, uppercase ~52–72px):** `TBI` + `Redefined`  
+- Add extra letter-spacing only on **Redefined** (~0.14em).  
+**Gold rule** under the title.  
+**Subtitle (smaller, Playfair italic ~20–28px):** `Redefining Traumatic Brain Injury for a New Era of Understanding`  
+**Lead (Inter):** `TBI is not a momentary event — it is a long‑term neurological condition that reshapes how a person experiences themselves and the world.`  
+**Mission (Inter):** `We are building a national movement grounded in clarity, emotional intelligence, and lived experience — so survivors can finally be understood, and society can finally evolve.`  
+**Button:** `Join the Movement` → Partnership & Support / Take Action  
 
-Keep hero sparse: brand, one headline, two short paragraphs, one button. No cards, badges, or extra widgets.
+Keep hero sparse: title, subtitle, two short paragraphs, one button. No cards, badges, or extra widgets.
+
+**Fonts rule:** Playfair Display + Inter only. Do not use fonts from the old live Wix site.
 
 ---
 

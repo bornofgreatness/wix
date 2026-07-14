@@ -1,17 +1,15 @@
 Hi Russell,
 
-Thanks for putting this together so clearly — this helps a lot.
+Yes — I have access to both Playfair Display and Inter, and the homepage is now using those only (not the fonts from the existing site).
 
-I’ve updated the homepage to follow your structure exactly:
+Hero updates:
+- “TBI Redefined” is back as the large title
+- Extra letter spacing on the “Redefined” portion
+- “Redefining Traumatic Brain Injury for a New Era of Understanding” is set smaller underneath
 
-1. Hero — “Redefining Traumatic Brain Injury for a New Era of Understanding,” your supporting lines, and Join the Movement
-2. Bridge section right after — awareness/empowerment through “You’re in the right place…”
+The section after the hero is also set in Playfair Display (headings/taglines) and Inter (body), with cleaner sizing so it reads more elegant and modern.
 
-I kept the rest of the homepage clean and removed the extra sections so this page stays focused, elegant, and uncluttered. The hero uses the photography with a soft veil (not a flat matte look).
-
-Fonts right now: Playfair Display for headings and Inter for body. If you have preferred brand fonts for the movement, send them over and I’ll switch them before we publish.
-
-Once you approve this homepage direction, I’ll apply it in the Wix Editor and publish.
+Once you’re happy with this homepage direction, we can roll the same font system through the remaining pages.
 
 Thanks,
 Adam
