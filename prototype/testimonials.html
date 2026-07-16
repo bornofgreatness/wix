@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Testimonials — TBI Redefined</title>
+  <meta name="description" content="Share your story. Your lived experience can help others feel understood." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="testimonials.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html" aria-label="TBI Redefined home">
+      <img src="assets/logo.png" alt="TBI Redefined" height="44" />
+    </a>
+    <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" data-nav-toggle>
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="site-nav" data-nav>
+      <a href="index.html#learning">The Learning Experience</a>
+      <a href="index.html#truth">What TBI Really Is</a>
+      <a href="index.html#serve">Who We Serve</a>
+      <a href="index.html#story">Our Story</a>
+      <a href="index.html#impact">Our Impact</a>
+      <a href="testimonials.html" aria-current="page">Testimonials</a>
+      <a href="index.html#contact">Contact</a>
+      <a class="btn btn-nav" href="partnership-support.html">Get Involved</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="ts-hero">
+      <div class="ts-hero__inner">
+        <p class="eyebrow">Testimonials</p>
+        <h1>Share Your Story</h1>
+        <p class="ts-hero__tagline">Your voice matters here.</p>
+        <div class="ts-hero__rule" aria-hidden="true"></div>
+        <p class="ts-hero__body">This page will grow as survivors, families, educators, clinicians, and supporters share their lived experiences. As your stories come in, this space will become a home for the truths, insights, and realities that shape our movement — a place where people finally feel acknowledged, understood, and supported.</p>
+        <p class="ts-hero__body">Every story helps someone else feel less alone. Every voice strengthens the movement. Every experience expands the world’s understanding of TBI.</p>
+        <p class="ts-hero__thanks">Thank you for being part of this.</p>
+      </div>
+    </section>
+
+    <section class="ts-portal-section" id="share">
+      <div class="ts-portal-layout">
+        <div class="ts-portal-copy">
+          <p class="eyebrow">Share Your Experience</p>
+          <h2>Your story can help someone else feel seen.</h2>
+          <p class="ts-portal-copy__lead">Your words can bring clarity to a family. Your experience can reshape how the world understands TBI.</p>
+          <p class="ts-portal-copy__body">Whether your journey has been quiet, overwhelming, confusing, or transformative — it belongs here.</p>
+        </div>
+
+        <!-- Story Portal -->
+        <div class="story-portal" role="region" aria-labelledby="story-portal-title">
+          <div class="story-portal__arc" aria-hidden="true">
+            <svg viewBox="0 0 120 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path class="story-portal__arc-outer" d="M18 58c0-28 22-50 50-50s50 22 50 50" stroke-width="8" stroke-linecap="round"/>
+              <circle class="story-portal__arc-dot" cx="68" cy="36" r="10"/>
+            </svg>
+          </div>
+
+          <h3 id="story-portal-title">Share Your Story</h3>
+          <p class="story-portal__sub">Your lived experience can help others feel understood</p>
+
+          <form class="story-portal__form" action="#" method="post" novalidate>
+            <label class="story-field">
+              <span class="story-field__label">Name</span>
+              <input type="text" name="name" autocomplete="name" placeholder="Your name" required />
+            </label>
+
+            <label class="story-field">
+              <span class="story-field__label">Email</span>
+              <input type="email" name="email" autocomplete="email" placeholder="you@email.com" required />
+            </label>
+
+            <label class="story-field">
+              <span class="story-field__label">Your story</span>
+              <textarea name="story" rows="7" placeholder="Share as much or as little as you feel ready to share…" required></textarea>
+            </label>
+
+            <label class="story-check">
+              <input type="checkbox" name="permission" required />
+              <span>I give permission for TBI Redefined to share my story (with my consent) to help others feel acknowledged and supported.</span>
+            </label>
+
+            <button class="story-portal__submit" type="submit">Share Your Experience</button>
+          </form>
+
+          <p class="story-portal__note">Your story will be met with respect and confidentiality.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <img src="assets/logo.png" alt="TBI Redefined" height="40" />
+        <p class="footer__tag">Where compassion meets curiosity — and understanding begins.</p>
+      </div>
+      <div class="footer__links">
+        <a href="index.html">Home</a>
+        <a href="index.html#learning">The Learning Experience</a>
+        <a href="index.html#truth">What TBI Really Is</a>
+        <a href="index.html#serve">Who We Serve</a>
+        <a href="index.html#story">Our Story</a>
+        <a href="index.html#impact">Our Impact</a>
+        <a href="testimonials.html">Testimonials</a>
+        <a href="partnership-support.html">Partnership &amp; Support</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
+      <div class="footer__meta">
+        <p>Empowering Communities through Comprehensive TBI Education and School Partnerships.</p>
+        <p class="footer__contact">contact@tbiredefined.org</p>
+        <p class="footer__contact">United States</p>
+      </div>
+    </div>
+    <p class="footer__copy">© 2026 TBI Redefined. United States.</p>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector('[data-nav-toggle]');
+    const nav = document.querySelector('[data-nav]');
+    toggle?.addEventListener('click', () => {
+      const open = nav.classList.toggle('is-open');
+      toggle.setAttribute('aria-expanded', String(open));
+    });
+    nav?.querySelectorAll('a').forEach((a) => {
+      a.addEventListener('click', () => {
+        nav.classList.remove('is-open');
+        toggle?.setAttribute('aria-expanded', 'false');
+      });
+    });
+
+    const form = document.querySelector('.story-portal__form');
+    form?.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const btn = form.querySelector('.story-portal__submit');
+      const original = btn.textContent;
+      btn.textContent = 'Thank you — received';
+      btn.disabled = true;
+      setTimeout(() => {
+        btn.textContent = original;
+        btn.disabled = false;
+        form.reset();
+      }, 2800);
+    });
+  </script>
+</body>
+</html>

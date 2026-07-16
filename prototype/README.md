@@ -1,9 +1,10 @@
 # Homepage prototype
 
-HTML/CSS rebuild of the Figma homepage design for TBI Redefined.
+HTML/CSS rebuild of the Figma / Russell-approved direction for TBI Redefined.
 
-- **Home:** open `index.html`
-- **Partnership & Support:** open `partnership-support.html`
-- **Match target:** https://pad-peak-39496847.figma.site/
+- **Home:** `index.html`
+- **Partnership & Support:** `partnership-support.html`
+- **Testimonials (Story Portal):** `testimonials.html`
 - **Wix steps:** see [`../WIX-REBUILD-GUIDE.md`](../WIX-REBUILD-GUIDE.md)
+
 
