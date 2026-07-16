@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 160" fill="none" role="img" aria-labelledby="logoTitle logoDesc">
+  <title id="logoTitle">TBI Redefined</title>
+  <desc id="logoDesc">TBI Redefined logo with a thin navy-to-silver arc above the wordmark</desc>
+
+  <defs>
+    <linearGradient id="arcGrad" x1="40" y1="40" x2="480" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0D1B2A"/>
+      <stop offset="48%" stop-color="#4A657A"/>
+      <stop offset="100%" stop-color="#B7C3CF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Logo arc motif -->
+  <path
+    d="M48 78 C 140 18, 380 18, 472 78"
+    stroke="url(#arcGrad)"
+    stroke-width="4.5"
+    stroke-linecap="round"
+    fill="none"
+  />
+
+  <!-- Wordmark -->
+  <text
+    x="260"
+    y="128"
+    text-anchor="middle"
+    fill="#0D1B2A"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="42"
+    font-weight="700"
+    letter-spacing="0.5"
+  >TBI <tspan letter-spacing="3.5">Redefined</tspan></text>
+</svg>
