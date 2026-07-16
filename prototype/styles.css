@@ -122,21 +122,33 @@ a {
   background: var(--teal-deep);
 }
 
+.btn-nav--lg {
+  font-size: 14px;
+  padding: 15px 32px;
+}
+
 .btn-hero {
   margin-top: 8px;
   font-size: 15px;
   font-weight: 600;
-  letter-spacing: 0.02em;
-  color: var(--navy);
-  background: var(--white);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--white) !important;
+  background: var(--teal);
   padding: 16px 36px;
   border-radius: 999px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
+  box-shadow: 0 10px 30px rgba(58, 175, 169, 0.35);
 }
 
 .btn-hero:hover {
+  background: var(--teal-deep);
   transform: translateY(-1px);
-  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 14px 34px rgba(58, 175, 169, 0.42);
+}
+
+.footer__cta {
+  display: inline-flex;
+  margin-top: 18px;
 }
 
 /* Hero — luminous, not matte */
