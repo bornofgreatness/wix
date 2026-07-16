@@ -126,24 +126,15 @@
 .story-portal__arc {
   position: relative;
   z-index: 1;
-  width: 72px;
-  margin: 0 auto 22px;
+  width: 120px;
+  margin: 0 auto 20px;
 }
 
 .story-portal__arc svg {
   width: 100%;
   height: auto;
   display: block;
-}
-
-.story-portal__arc-outer {
-  stroke: #f17d31;
-  fill: none;
-  opacity: 0.95;
-}
-
-.story-portal__arc-dot {
-  fill: #f17d31;
+  filter: drop-shadow(0 0 10px rgba(168, 184, 200, 0.35));
 }
 
 .story-portal h3 {
@@ -214,7 +205,7 @@
 
 .story-field input:focus,
 .story-field textarea:focus {
-  border-color: rgba(241, 125, 49, 0.55);
+  border-color: rgba(168, 184, 200, 0.65);
   background: rgba(255, 255, 255, 0.14);
   box-shadow: 0 0 0 4px rgba(58, 175, 169, 0.18);
 }
@@ -236,7 +227,7 @@
   width: 18px;
   height: 18px;
   flex-shrink: 0;
-  accent-color: #f17d31;
+  accent-color: #3aafa9;
   cursor: pointer;
 }
 

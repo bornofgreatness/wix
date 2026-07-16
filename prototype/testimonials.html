@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Testimonials — TBI Redefined</title>
+  <title>Testimonials â€” TBI Redefined</title>
   <meta name="description" content="Share your story. Your lived experience can help others feel understood." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,7 +14,7 @@
 <body>
   <header class="site-header">
     <a class="logo" href="index.html" aria-label="TBI Redefined home">
-      <img src="assets/logo.png" alt="TBI Redefined" height="44" />
+      <img src="assets/logo.png" alt="TBI Redefined" height="56" />
     </a>
     <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" data-nav-toggle>
       <span></span><span></span><span></span>
@@ -38,8 +38,8 @@
         <h1>Share Your Story</h1>
         <p class="ts-hero__tagline">Your voice matters here.</p>
         <div class="ts-hero__rule" aria-hidden="true"></div>
-        <p class="ts-hero__body">This page will grow as survivors, families, educators, clinicians, and supporters share their lived experiences. As your stories come in, this space will become a home for the truths, insights, and realities that shape our movement — a place where people finally feel acknowledged, understood, and supported.</p>
-        <p class="ts-hero__body">Every story helps someone else feel less alone. Every voice strengthens the movement. Every experience expands the world’s understanding of TBI.</p>
+        <p class="ts-hero__body">This page will grow as survivors, families, educators, clinicians, and supporters share their lived experiences. As your stories come in, this space will become a home for the truths, insights, and realities that shape our movement â€” a place where people finally feel acknowledged, understood, and supported.</p>
+        <p class="ts-hero__body">Every story helps someone else feel less alone. Every voice strengthens the movement. Every experience expands the worldâ€™s understanding of TBI.</p>
         <p class="ts-hero__thanks">Thank you for being part of this.</p>
       </div>
     </section>
@@ -50,15 +50,27 @@
           <p class="eyebrow">Share Your Experience</p>
           <h2>Your story can help someone else feel seen.</h2>
           <p class="ts-portal-copy__lead">Your words can bring clarity to a family. Your experience can reshape how the world understands TBI.</p>
-          <p class="ts-portal-copy__body">Whether your journey has been quiet, overwhelming, confusing, or transformative — it belongs here.</p>
+          <p class="ts-portal-copy__body">Whether your journey has been quiet, overwhelming, confusing, or transformative â€” it belongs here.</p>
         </div>
 
         <!-- Story Portal -->
         <div class="story-portal" role="region" aria-labelledby="story-portal-title">
           <div class="story-portal__arc" aria-hidden="true">
-            <svg viewBox="0 0 120 72" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path class="story-portal__arc-outer" d="M18 58c0-28 22-50 50-50s50 22 50 50" stroke-width="8" stroke-linecap="round"/>
-              <circle class="story-portal__arc-dot" cx="68" cy="36" r="10"/>
+            <svg viewBox="0 0 200 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="logoArcGrad" x1="0" y1="24" x2="200" y2="24" gradientUnits="userSpaceOnUse">
+                  <stop offset="0%" stop-color="#0d1b2a"/>
+                  <stop offset="55%" stop-color="#3a5a78"/>
+                  <stop offset="100%" stop-color="#a8b8c8"/>
+                </linearGradient>
+              </defs>
+              <path
+                d="M8 40 C 50 6, 150 6, 192 40"
+                stroke="url(#logoArcGrad)"
+                stroke-width="3.5"
+                stroke-linecap="round"
+                fill="none"
+              />
             </svg>
           </div>
 
@@ -78,7 +90,7 @@
 
             <label class="story-field">
               <span class="story-field__label">Your story</span>
-              <textarea name="story" rows="7" placeholder="Share as much or as little as you feel ready to share…" required></textarea>
+              <textarea name="story" rows="7" placeholder="Share as much or as little as you feel ready to shareâ€¦" required></textarea>
             </label>
 
             <label class="story-check">
@@ -98,8 +110,8 @@
   <footer class="site-footer" id="contact">
     <div class="footer__inner">
       <div class="footer__brand">
-        <img src="assets/logo.png" alt="TBI Redefined" height="40" />
-        <p class="footer__tag">Where compassion meets curiosity — and understanding begins.</p>
+        <img src="assets/logo.png" alt="TBI Redefined" height="52" />
+        <p class="footer__tag">Where compassion meets curiosity â€” and understanding begins.</p>
       </div>
       <div class="footer__links">
         <a href="index.html">Home</a>
@@ -118,7 +130,7 @@
         <p class="footer__contact">United States</p>
       </div>
     </div>
-    <p class="footer__copy">© 2026 TBI Redefined. United States.</p>
+    <p class="footer__copy">Â© 2026 TBI Redefined. United States.</p>
   </footer>
 
   <script>
@@ -140,7 +152,7 @@
       e.preventDefault();
       const btn = form.querySelector('.story-portal__submit');
       const original = btn.textContent;
-      btn.textContent = 'Thank you — received';
+      btn.textContent = 'Thank you â€” received';
       btn.disabled = true;
       setTimeout(() => {
         btn.textContent = original;
